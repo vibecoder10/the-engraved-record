@@ -1,0 +1,13 @@
+:root{--bg:#efe6d2;--ink:#1c1812;--muted:#5b5142;--red:#a3231b;--line:#b9aa8c}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1812;--ink:#efe6d2;--muted:#b9aa8c;--red:#e0574c;--line:#4a4032}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:clamp(40px,9vw,72px);line-height:1;margin:0 0 8px;letter-spacing:-.01em;text-transform:uppercase}
+h1 span{color:var(--red)}
+h2{font-size:24px;margin:32px 0 8px}
+p,li{color:var(--ink)}
+.sub{color:var(--muted);font-style:italic;margin:0 0 32px}
+a{color:var(--red)}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0 16px}
+footer{color:var(--muted);font-size:15px}
